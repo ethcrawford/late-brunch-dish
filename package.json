@@ -1,0 +1,33 @@
+{
+  "name": "late-brunch-dish",
+  "description": "Simple Brunch configuration with Sass.",
+  "version": "1.0.0",
+  "keywords": [
+    "sass",
+    "brunch",
+    "boilerplate"
+  ],
+  "homepage": "https://github.com/ethcrawford/late-brunch-dish#readme",
+  "bugs": {
+    "url": "https://github.com/ethcrawford/late-brunch-dish/issues",
+    "email": "ethcrawford@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ethcrawford/late-brunch-dish.git"
+  },
+  "author": "Ethan Crawford <ethcrawford@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "brunch watch --server",
+    "watch": "brunch watch",
+    "build": "brunch build --production"
+  },
+  "devDependencies": {
+    "brunch": "^2.10.17",
+    "clean-css-brunch": "^2.10.0",
+    "sass-brunch": "^2.10.8",
+    "uglify-js-brunch": "^2.10.0"
+  }
+}
