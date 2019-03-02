@@ -11,8 +11,10 @@ exports.files = {
     // Define javascripts compilation order (optional). The default order is alphabetical.
     order: {
       before: [
-        "app/js/jquery.js",
+        /app\/js\/jquery(\.slim)?\.js$/,
         "app/js/popper.js",
+        "app/js/bootstrap/index.js",
+        "app/js/bootstrap/util.js",
       ],
       after: [
         "app/js/common.js",
